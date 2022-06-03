@@ -1,11 +1,18 @@
 import React from 'react'
-// import img from './image/lak.png'
+
 
 function BriefIntro() {
+let styling={
+  border : '1px solid black',
+  height : '90vh',
+  textAlign : 'center',
+  // width : '100%',
+  margin : 'auto'
 
+}
   return (
 
-    <div>
+    <div style={styling}>
         <div>
             <h1>HI</h1>
             <h2>I AM LAKSHAY SHARMA</h2>
