@@ -26,7 +26,15 @@ function Projects() {
                 rel="noreferrer"
                 className="btn btn-primary"
               >
-              Open
+              Project
+              </a>
+              <a
+                href="https://github.com/LakshayLakshaySharma/React-Info"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+              Source Code
               </a>
             </div>
           </div>
@@ -52,7 +60,15 @@ function Projects() {
                 rel="noreferrer"
                 className="btn btn-primary"
               >
-              Open
+              Project
+              </a>
+              <a
+                href="https://github.com/LakshayLakshaySharma/BMI---REACT"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+              Source Code
               </a>
             </div>
           </div>
@@ -78,7 +94,16 @@ function Projects() {
                 rel="noreferrer"
                 className="btn btn-primary"
               >
-              Open
+              Project
+              </a>
+
+              <a
+                href="https://github.com/LakshayLakshaySharma/PhotoMania"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+              Source Code
               </a>
             </div>
           </div>
@@ -105,7 +130,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://github.com/LakshayLakshaySharma/Newsify-REACT"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -138,7 +172,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/NWgqbaY"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -164,7 +207,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/wvdREjg"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -191,7 +243,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/abWMPrj"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -217,7 +278,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/yLbvbaq"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -243,7 +313,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/abWpoOP"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -269,7 +348,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/WNjyExm"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -302,7 +390,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/ZEWdVzR"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -328,7 +425,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/BazBojb"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -354,7 +460,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/BazKzyj"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -380,7 +495,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/xxOxmXJ"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
@@ -406,14 +530,23 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/QWEyOOa"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Source Code
                 </a>
               </div>
             </div>
           </div>
 
           <div className="col-md-4">
-            {/* guess random number */}
+            {/* google clone */}
             <div className="card" style={{ width: "300px", }}>
               <img
                 src="https://i.pinimg.com/564x/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.jpg"
@@ -432,7 +565,16 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Open
+                Project
+                </a>
+
+                <a
+                  href="https://codepen.io/lakshaysharma/pen/g"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                Project
                 </a>
               </div>
             </div>
