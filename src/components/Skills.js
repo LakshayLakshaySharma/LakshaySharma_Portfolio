@@ -9,35 +9,37 @@ function Skills() {
           <div  style={{ border: "1px solid red", }}>
 
             <div className="d-flex justify-content-center">
-              <p style={{ fontSize: "100px", color : '#e34c26' , paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px", color : '#e34c26' , paddingRight : '50px'}}>
                 <i className="fa-brands fa-html5"></i>
               </p>
-              <p style={{ fontSize: "100px", color :'#3C99DC', paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px", color :'#3C99DC', paddingRight : '50px'}}>
                 <i className="fa-brands fa-css3-alt"></i>
               </p>
-              <p style={{ fontSize: "100px", color : '#F0DB4F', paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px", color : '#F0DB4F', paddingRight : '50px'}}>
                 <i className="fa-brands fa-js-square"></i>
               </p>
             </div>
 
             <div className="d-flex justify-content-center">
-              <p style={{ fontSize: "100px", color : '#3C99DC', paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px", color : '#3C99DC', paddingRight : '50px'}}>
                 <i className="fa-brands fa-react"></i>
               </p>
-              <p style={{ fontSize: "100px" , color : '#3E2c00', paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px" , color : '#3E2c00', paddingRight : '50px'}}>
                 <i className="fa-brands fa-git"></i>
               </p>
-              <p style={{ fontSize: "100px", color : '#6e5494' ,paddingRight : '50px'}}>
+              <p style={{ fontSize: "130px", color : '#6e5494' ,paddingRight : '50px'}}>
                 <i className="fa-brands fa-github"></i>
               </p>
             </div>
 
             <div className="d-flex justify-content-center">
-              <p style={{ fontSize: "100px", color :'#080135' }}>
+              <p style={{ fontSize: "130px", color :'#080135' }}>
                 <i className="fa-brands fa-bootstrap"></i>
               </p>
             </div>
           </div>
+
+          
         </div>
       </div>
     </div>

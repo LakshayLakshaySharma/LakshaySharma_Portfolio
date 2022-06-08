@@ -574,7 +574,7 @@ function Projects() {
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                Project
+                Source Code
                 </a>
               </div>
             </div>
