@@ -12,7 +12,7 @@ export default function ContactMe() {
   >
     {/* <!-- Left --> */}
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span>Get connected with me on social networks:</span>
     </div>
     {/* <!-- Left --> */}
 {/*  */}
