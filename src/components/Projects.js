@@ -40,14 +40,13 @@ function Projects() {
               src="https://i.pinimg.com/564x/61/e3/d5/61e3d5ce3923b1a74eab3434df097990.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "220px", width: "300px" }}
+              style={{ height: "200px", width: "300px" }}
             />
             <div className="card-body">
-              <h5 className="card-title">React-Info Page</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 className="card-title text-center text-center">React-Info Page</h5>
+              {/* <p className="card-text">
+           React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
+              </p> */}
               <div className="d-flex justify-content-around">
                 <a
                   href="https://lakshaylakshaysharma.github.io/React-Info/"
@@ -70,9 +69,12 @@ function Projects() {
           </motion.div>
         </div>
 
-        {/* bmi calculator project */}
+    {/* bmi calculator project */}
         <div className="col-md-4">
-          <div  
+          <motion.div  
+          whileHover={{scale: 1.1 , 
+          transition : {duration: 1}
+          }}
 
             className="card"
             style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
@@ -81,14 +83,13 @@ function Projects() {
               src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "220px", width: "300px" }}
+              style={{ height: "200px", width: "300px" }}
             />
             <div className="card-body">
-              <h5 className="card-title">BMI Calculator</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 className="card-title text-center text-center">BMI Calculator</h5>
+              {/* <p className="card-text">
+            BMI Calculator, filling your height and weight and findout your BMI
+              </p> */}
               <div className="d-flex justify-content-around">
                 <a
                   href="https://lakshaylakshaysharma.github.io/BMI---REACT/"
@@ -108,27 +109,26 @@ function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* photo search project */}
         <div className="col-md-4">
           <div
             className="card"
-            style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+            style={{ width: "280px", boxShadow: "2px 2px 2px 2px gray" }}
           >
             <img
               src="https://i.pinimg.com/564x/dd/5f/68/dd5f6816e60b4c9094f03a8518c26f40.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "220px", width: "300px" }}
+              style={{ height: "200px", width: "280px" }}
             />
             <div className="card-body">
-              <h5 className="card-title">Search Photo App</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 className="card-title text-center">Search Photo App</h5>
+              {/* <p className="card-text">
+            Search Photo App, 
+              </p> */}
               <div className="d-flex justify-content-around">
                 <a
                   href="https://lakshaylakshaysharma.github.io/PhotoMania/"
@@ -167,14 +167,14 @@ function Projects() {
                 src="https://i.pinimg.com/564x/f7/47/2e/f7472e601d4f32131d0a3fae5e5c3cc3.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "200px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">News App</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">News App</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://lakshaylakshaysharma.github.io/Newsify-REACT/"
@@ -228,11 +228,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Tip Calculator</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center">Tip Calculator</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
 
                   <div className="d-flex justify-content-around">
                     <a
@@ -270,11 +270,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title"> Calculator</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center"> Calculator</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
                   <div className="d-flex justify-content-around">
                     <a
                       href="https://cdpn.io/pen/debug/wvdREjg?authentication_hash=VGAWNooQaGdr"
@@ -311,11 +311,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Hex Color Changer</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center">Hex Color Changer</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
                   <div className="d-flex justify-content-around">
                     <a
                       href="https://cdpn.io/pen/debug/abWMPrj?authentication_hash=LQMExNNVdWzk"
@@ -356,11 +356,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">To-Do List</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center">To-Do List</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
                   <div className="d-flex justify-content-around">
                     <a
                       href="https://cdpn.io/pen/debug/yLbvbaq?authentication_hash=vWkRwooWDxKM"
@@ -401,11 +401,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Change CSS</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center">Change CSS</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
 
                   <div className="d-flex justify-content-around">
                     <a
@@ -447,11 +447,11 @@ function Projects() {
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Guess Random Number</h5>
-                  <p className="card-text">
+                  <h5 className="card-title text-center">Guess Random Number</h5>
+                  {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
-                  </p>
+                  </p> */}
                   <div className="d-flex justify-content-around">
                     <a
                       href="https://cdpn.io/pen/debug/WNjyExm?authentication_hash=ZoABaQQoGBVr"
@@ -505,11 +505,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Tribute Page</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
+                <h5 className="card-title text-center">Tribute Page</h5>
+                {/* <p className="card-text"> */}
+                  {/* Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/ZEWdVzR?authentication_hash=GnMnbqqnywNM"
@@ -546,11 +546,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Parallax Effect</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">Parallax Effect</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/BazBojb?authentication_hash=RBAOJbbyaxar"
@@ -587,11 +587,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Document Page</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">Document Page</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/BazKzyj?authentication_hash=VJMxxRRwQaLM"
@@ -632,11 +632,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Product Landing Page</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">Product Landing Page</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/xxOxmXJ?authentication_hash=NjMYzppyReOr"
@@ -677,11 +677,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Survay From</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">Survay From</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/QWEyOOa?authentication_hash=GnAnbqqnxNZA"
@@ -722,11 +722,11 @@ function Projects() {
                 style={{ height: "220px", width: "300px" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Google Clone</h5>
-                <p className="card-text">
+                <h5 className="card-title text-center">Google Clone</h5>
+                {/* <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
+                </p> */}
                 <div className="d-flex justify-content-around">
                   <a
                     href="https://cdpn.io/pen/debug/gOMrBqN?authentication_hash=XBrGRNNZVbbM#gmail"
