@@ -114,8 +114,15 @@ function Projects() {
 
         {/* photo search project */}
         <div className="col-md-4">
-          <div
-            className="card"
+          <motion.div
+whileHover={{
+  scale: 1,
+  x : 0,
+  y: 0,
+  rotate: 360,
+  transition : {duration: 1},
+}}
+className="card"
             style={{ width: "280px", boxShadow: "2px 2px 2px 2px gray" }}
           >
             <img
@@ -149,7 +156,7 @@ function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* news app */}
