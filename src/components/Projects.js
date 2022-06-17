@@ -43,7 +43,9 @@ function Projects() {
               style={{ height: "200px", width: "300px" }}
             />
             <div className="card-body">
-              <h5 className="card-title text-center text-center">React-Info Page</h5>
+              <h5 className="card-title text-center text-center">
+                React-Info Page
+              </h5>
               {/* <p className="card-text">
            React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
               </p> */}
@@ -69,13 +71,10 @@ function Projects() {
           </motion.div>
         </div>
 
-    {/* bmi calculator project */}
+        {/* bmi calculator project */}
         <div className="col-md-4">
-          <motion.div  
-          whileHover={{scale: 1.1 , 
-          transition : {duration: 1}
-          }}
-
+          <motion.div
+            whileHover={{ scale: 1.1, transition: { duration: 1 } }}
             className="card"
             style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
           >
@@ -86,7 +85,9 @@ function Projects() {
               style={{ height: "200px", width: "300px" }}
             />
             <div className="card-body">
-              <h5 className="card-title text-center text-center">BMI Calculator</h5>
+              <h5 className="card-title text-center text-center">
+                BMI Calculator
+              </h5>
               {/* <p className="card-text">
             BMI Calculator, filling your height and weight and findout your BMI
               </p> */}
@@ -115,14 +116,14 @@ function Projects() {
         {/* photo search project */}
         <div className="col-md-4">
           <motion.div
-whileHover={{
-  scale: 1,
-  x : 0,
-  y: 0,
-  rotate: 360,
-  transition : {duration: 1},
-}}
-className="card"
+            whileHover={{
+              scale: 1,
+              x: 0,
+              y: 0,
+              rotate: 360,
+              transition: { duration: 1 },
+            }}
+            className="card"
             style={{ width: "280px", boxShadow: "2px 2px 2px 2px gray" }}
           >
             <img
@@ -454,7 +455,9 @@ className="card"
                   style={{ height: "220px", width: "300px" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title text-center">Guess Random Number</h5>
+                  <h5 className="card-title text-center">
+                    Guess Random Number
+                  </h5>
                   {/* <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -514,7 +517,7 @@ className="card"
               <div className="card-body">
                 <h5 className="card-title text-center">Tribute Page</h5>
                 {/* <p className="card-text"> */}
-                  {/* Some quick example text to build on the card title and make up
+                {/* Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p> */}
                 <div className="d-flex justify-content-around">
