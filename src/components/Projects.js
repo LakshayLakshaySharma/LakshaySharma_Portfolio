@@ -31,7 +31,8 @@ function Projects() {
             whileHover={{
               scale: 1.1,
               transition: { duration: 1 },
-            }}
+              boxShadow:"5px 5px 5px #885EAD"
+                        }}
             whileTap={{ scale: 0.9 }}
             className="card "
             style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
