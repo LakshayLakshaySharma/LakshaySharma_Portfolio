@@ -51,14 +51,15 @@ function Projects() {
            React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
               </p> */}
               <div className="d-flex justify-content-around">
-                <a
+                <motion.a
+                whileHover={{boxshadow :'5px 5px 5px #885EAD'}}
                   href="https://lakshaylakshaysharma.github.io/React-Info/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
                   Project
-                </a>
+                </motion.a>
                 <a
                   href="https://github.com/LakshayLakshaySharma/React-Info"
                   target="_blank"

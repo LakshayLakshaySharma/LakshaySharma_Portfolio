@@ -11,8 +11,6 @@ function BriefIntro() {
 
   return (
     <div style={styling}>
-      {/* there is a X and Y propertis in framer motion that is not in the css styling, if the X property is in postive number(1,2,3,4) then the element is goes to the right and is it is a negitive number (-1,-2,-3,-4) then is goes to the left */}
-      {/* and same with the Y, if Y is in positive number the element goes to the down and if the Y is in postive then the element goes to the upward */}
 
       <motion.div
       style={{ width:'999px', }}
