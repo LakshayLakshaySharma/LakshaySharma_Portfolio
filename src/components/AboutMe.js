@@ -1,10 +1,13 @@
 import React from "react";
+import {motion} from "framer-motion";
 
 function AboutMe() {
   return (
     <div style={{ height: "100vh", border: "1px solid black" }}>
       <div className="container">
-        <div>
+        <motion.div
+       
+        >
           <h1>About Me</h1>
           <div
             className="d-flex"
@@ -36,7 +39,7 @@ function AboutMe() {
               alt=""
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

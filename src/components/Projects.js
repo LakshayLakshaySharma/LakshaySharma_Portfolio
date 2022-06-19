@@ -29,13 +29,14 @@ function Projects() {
         <div className="col-md-4">
           <motion.div
             whileHover={{
-              scale: 1.1,
-              transition: { duration: 1 },
-              boxShadow:"5px 5px 5px #885EAD"
+              // scale: 1.1,
+              // transition: { duration: 1 },
+              textShadow:"5px 5px 5px 5px red"
                         }}
-            whileTap={{ scale: 0.9 }}
+            // whileTap={{ scale: 0.9 }}
             className="card "
-            style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+            style={{ width: "300px"}}
+            // , boxShadow: "2px 2px 2px 2px gray" 
           >
             <img
               src="https://i.pinimg.com/564x/61/e3/d5/61e3d5ce3923b1a74eab3434df097990.jpg"
@@ -47,11 +48,10 @@ function Projects() {
               <h5 className="card-title text-center text-center">
                 React-Info Page
               </h5>
-              {/* <p className="card-text">
-           React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
-              </p> */}
+      
               <div className="d-flex justify-content-around">
                 <motion.a
+                
                 whileHover={{boxshadow :'5px 5px 5px #885EAD'}}
                   href="https://lakshaylakshaysharma.github.io/React-Info/"
                   target="_blank"
@@ -60,14 +60,16 @@ function Projects() {
                 >
                   Project
                 </motion.a>
-                <a
+                <button
+                whileHover={{boxshadow :'5px 5px 5px #885EAD'}}
+
                   href="https://github.com/LakshayLakshaySharma/React-Info"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
                   Source Code
-                </a>
+                </button>
               </div>
             </div>
           </motion.div>

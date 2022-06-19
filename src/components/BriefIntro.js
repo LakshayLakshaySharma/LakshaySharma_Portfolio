@@ -21,7 +21,7 @@ function BriefIntro() {
           y: 200,
           opacity: 1,
           x : 100,
-          transition: { duration: 1.2 , type: 'tween',},
+          transition: { duration: 1.2 , type: 'tween', delay: '0.2'},
         }}
 
         // style={{ marginTop: "25vh" }}
