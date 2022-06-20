@@ -1,6 +1,23 @@
 import React from "react";
 import {motion} from "framer-motion";
 
+const HoverVariants= {
+  Hover : {
+    scale: 1.2,
+    color : 'red'
+  }
+}
+
+const imgVariants = {
+ animate :{
+  scale : 1.1,
+  transition : {
+    // duration:0.1,
+    yoyo : Infinity
+  }
+ }
+}
+
 function AboutMe() {
   return (
     <div style={{ height: "100vh", border: "1px solid black" }}>
@@ -13,7 +30,10 @@ function AboutMe() {
             className="d-flex"
             style={{ fontSize: "20px", textAlign: "justify" }}
           >
-            <p style={{ width: "45vw" }}>
+            <motion.p 
+            variants={HoverVariants}
+            whileHover='Hover'
+            style={{ width: "45vw" }}>
               i have a huge interest in development and technology spectrum, my
               name is lakshay sharma 20 and i am a self thought front end wen
               developer, its been since 2 years that i learn front end web
@@ -25,8 +45,11 @@ function AboutMe() {
               <br />
               And apart from coding i have some more interest like i read books,
               watch classical movies, shows, and anime
-            </p>
-            <img
+            </motion.p>
+            <motion.img
+            variants={imgVariants}
+            whileHover='animate'
+
               src="./image/lak.png"
               style={{
                 height: "270px",
