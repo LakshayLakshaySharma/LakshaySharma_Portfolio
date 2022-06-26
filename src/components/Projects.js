@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 function Projects() {
   return (
@@ -10,6 +10,7 @@ function Projects() {
             fontSize: "50px",
             fontFamily: "arial",
             marginBottom: "20px",
+            color :'#904abf'
           }}
         >
           WORK SAMPLE
@@ -20,6 +21,7 @@ function Projects() {
             fontFamily: "arial",
             textAlign: "center",
             marginBottom: "40px",
+            color :'#904abf'
           }}
         >
           React Project Sample{" "}
@@ -27,13 +29,8 @@ function Projects() {
         {/* react info project */}
 
         <div className="col-md-4">
-          <motion.div
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 1 },
-              boxShadow:"5px 5px 5px #885EAD"
-                        }}
-            whileTap={{ scale: 0.9 }}
+          <div
+           
             className="card "
             style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
           >
@@ -56,6 +53,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Project
                 </a>
@@ -64,18 +62,19 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Source Code
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* bmi calculator project */}
         <div className="col-md-4">
-          <motion.div
-            whileHover={{ scale: 1.1, transition: { duration: 1 } }}
+          <div
+           
             className="card"
             style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
           >
@@ -98,6 +97,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Project
                 </a>
@@ -106,24 +106,19 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Source Code
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* photo search project */}
         <div className="col-md-4">
-          <motion.div
-            whileHover={{
-              scale: 1,
-              x: 0,
-              y: 0,
-              rotate: 360,
-              transition: { duration: 1 },
-            }}
+          <div
+           
             className="card"
             style={{ width: "280px", boxShadow: "2px 2px 2px 2px gray" }}
           >
@@ -144,6 +139,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Project
                 </a>
@@ -153,12 +149,13 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
+                  style={{backgroundColor:'#904abf'}}
                 >
                   Source Code
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* news app */}
@@ -190,6 +187,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                    style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -199,6 +197,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                    style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -218,6 +217,7 @@ function Projects() {
             textAlign: "center",
             marginBottom: "40px",
             marginTop: "20px",
+            color :'#904abf'
           }}
         >
           Javascript Work Sample
@@ -249,6 +249,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                      style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -258,6 +259,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                      style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -290,6 +292,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -299,6 +302,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -331,6 +335,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -340,6 +345,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -376,6 +382,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -385,6 +392,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -422,6 +430,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -431,6 +440,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -469,6 +479,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Project
                     </a>
@@ -478,6 +489,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
+                       style={{backgroundColor:'#904abf'}}
                     >
                       Source Code
                     </a>
@@ -499,6 +511,7 @@ function Projects() {
               textAlign: "center",
               marginBottom: "40px",
               marginTop: "20px",
+              color :'#904abf'
             }}
           >
             HTML & CSS Project
@@ -527,6 +540,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -536,6 +550,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -568,6 +583,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -577,6 +593,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -609,6 +626,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -618,6 +636,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -654,6 +673,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -663,6 +683,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -699,6 +720,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -708,6 +730,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>
@@ -744,6 +767,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Project
                   </a>
@@ -753,6 +777,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
+                     style={{backgroundColor:'#904abf'}}
                   >
                     Source Code
                   </a>

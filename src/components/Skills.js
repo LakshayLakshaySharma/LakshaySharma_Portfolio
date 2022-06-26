@@ -6,7 +6,7 @@ function Skills() {
     <div style={{ height: "100vh", border: "1px solid black" }}>
       <div>
         <div className="container">
-          <h2>The Skills i learn</h2>
+          <h2 style={{color :'#904abf'}}>The Skills i learn</h2>
           <div style={{ border: "1px solid red" }}>
             <div className="d-flex justify-content-center ">
               <motion.p

@@ -5,7 +5,7 @@ function AboutMe() {
     <div style={{ height: "100vh", border: "1px solid black" }}>
       <div className="container">
         <div>
-          <h1>About Me</h1>
+          <h1 style={{color :'#904abf'}}>About Me</h1>
           <div
             className="d-flex"
             style={{ fontSize: "20px", textAlign: "justify" }}
