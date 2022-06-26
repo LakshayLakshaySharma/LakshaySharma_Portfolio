@@ -3,9 +3,9 @@ import React from 'react'
 export default function ContactMe() {
   return (
 
-<div>
+<div style={{ background: "linear-gradient(to bottom, #ffffff 0%, #cc00ff  100%)", }}>
 {/* <!-- Footer --> */}
-<footer class="text-center text-lg-start bg-light text-muted" style={{marginTop:'30vh'}}>
+<footer class="text-center text-lg-start bg-white text-muted" style={{marginTop:'30vh'}}>
   {/* <!-- Section: Social media --> */}
   <section 
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"

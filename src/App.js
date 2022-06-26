@@ -10,7 +10,7 @@ function App() {
   return (
   <div>
    {/* <Navbar/> */}
-   <BriefIntro/>
+   <BriefIntro style={{  background: "linear-gradient(to top, #ffffff 0%, #904abf  100%)",}}/>
    <AboutMe/>
    <Skills/>
    <Projects/>
