@@ -7,6 +7,7 @@ function BriefIntro() {
     textAlign: "center",
     margin: "auto",
     background: "linear-gradient(to top, #ffffff 0%, #904abf  100%)",
+fontFamily:'cursive'
   };
 
   return (
@@ -28,11 +29,11 @@ function BriefIntro() {
       color : 'white',
       textShadow:'2px 2px 3px purple',
       // scale : 1.1,
-      transition:{duration : 2, type :'tween'}
+      transition:{duration : 2, type :'spring', mass: 10}
      }}
       
       >
-        <h1 style={{ fontSize: "70px" }}>HI</h1>
+        <h1 style={{ fontSize: "70px"  }}>HI</h1>
         <h2 style={{ fontSize: "40px" }}>I AM LAKSHAY SHARMA</h2>
         <h4 style={{ fontSize: "30px" }}>FRONT END WEB DEVELOPER</h4>
       </motion.div>

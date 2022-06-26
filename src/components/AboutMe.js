@@ -10,8 +10,8 @@ function AboutMe() {
             className="d-flex"
             style={{ fontSize: "20px", textAlign: "justify" }}
           >
-            <p style={{ width: "45vw" }}>
-              my name is lakshay sharma 20 and i am a self thought front-end web 
+            <p style={{ width: "45vw" , fontFamily:'cursive' }}>
+              My name is Lakshay Sharma 20 and I am a self thought front-end web 
               developer, i have a huge interest in development and whole technology
               spectrum, its been since 2 years that i learn front end web
               development and the skills i aquired in last 2 years are
