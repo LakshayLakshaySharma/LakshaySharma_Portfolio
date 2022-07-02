@@ -1,9 +1,10 @@
 import React from "react";
+import {motion} from 'framer-motion';
 
 function AboutMe() {
   return (
-    <div style={{ height: "100vh", border: "1px solid black" }}>
-      <div className="container">
+    <div style={{ height: "100vh", }}>
+      <motion.div className="container">
         <div>
           <h1 style={{color :'#904abf'}}>About Me</h1>
           <div
@@ -36,8 +37,9 @@ function AboutMe() {
               alt=""
             />
           </div>
+          <hr/>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
