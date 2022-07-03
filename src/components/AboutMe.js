@@ -6,7 +6,7 @@ function AboutMe() {
     <div style={{ height: "100vh", }}>
       <motion.div className="container">
         <div>
-          <h1 style={{color :'#904abf'}}>About Me</h1>
+          <h1 style={{color :'#904abf', textShadow:'1px 1px 1px black', borderBottom:"1px solid #904abf"}}>About Me</h1>
           <div
             className="d-flex"
             style={{ fontSize: "20px", textAlign: "justify" }}
@@ -24,20 +24,33 @@ function AboutMe() {
               And apart from coding i have some more interest like i read books,
               watch classical movies, shows, and anime
             </p>
-            <img
+            <motion.img
+            initial={{
+              scale:1.1
+            }}
+            // animate={{
+              
+            // }}
+         
+            whileHover={{
+              borderRadius:'30%',
+              border:'1px solid black',
+              boxShadow: "5px 5px 5px #904abf",
+              transition:{duration:2}
+            }}
               src="./image/lak.png"
               style={{
                 height: "270px",
                 width: "270px",
                 borderRadius: "50%",
-                marginLeft: "30px",
+                marginLeft: "60px",
                 marginTop: "30px",
-                boxShadow: "5px 5px 5px gray",
+                boxShadow: "5px 5px 5px #904abf",
               }}
               alt=""
             />
           </div>
-          <hr/>
+          {/* <hr/> */}
         </div>
       </motion.div>
     </div>
