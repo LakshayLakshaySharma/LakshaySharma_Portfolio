@@ -4,35 +4,40 @@ import { motion } from "framer-motion";
 //  style={{ height: "100vh" }}
 function Skills() {
   return (
-    <div>
+    <div  className="container">
 
       <div>
-        <div className="container">
+        <div>
           <motion.h1
-          initial={{
-          opacity:0 
-          }}
-          animate={{
-            opacity:1,
-            borderBottom:'1px solid #904abf',
-          }}
-          whileHover={{
-            // 
-            // x : 500,
-            transition:{duration:0.5}
-          }}
-          style={{color:'#904abf',}} >SKILLS</motion.h1>
+          
+          // animate={{
+          //   opacity:1,
+           
+          // }}
+          // whileHover={{
+          //   transition:{duration:0.5}
+          // }}
+          style={{color:'#904abf', borderBottom:'1px solid #904abf', textShadow :'1px 1px 1px black'}} >Technical Skills</motion.h1>
 
           {/* container for skills icons and progress baar */}
-          <div className="text-center">
+          <div className="text-center row">
             {/* html container */}
-            <div>
+            <div className="col-md-4">
+            <motion.div
+          
+            style={{
+              height :'300px',
+              width:'350px',
+             
+            }}
+            >
               <i
                 className="fa-brands fa-html5  "
                 style={{
                   fontSize: "100px",
                   color: "#e34c26",
                   textAlign: "center",
+               
                 }}
               ></i>
               <p>
@@ -53,10 +58,17 @@ function Skills() {
                   50%
                 </div>
               </div>
+            </motion.div>
             </div>
 
             {/* css  */}
-            <div>
+            <div className="col-md-4">
+            <div 
+              style={{
+                height :'300px',
+                width:'350px',
+               
+              }}>
               <i
                 className="fa-brands fa-css3-alt "
                 style={{
@@ -84,9 +96,14 @@ function Skills() {
                 </div>
               </div>
             </div>
-
+</div>
             {/* javascript container  */}
-            <div>
+            <div className="col-md-4">
+            <div
+               style={{
+                height :'300px',
+                width:'350px',
+              }}>
               <i
                 className="fa-brands fa-js-square "
                 style={{
@@ -114,17 +131,23 @@ function Skills() {
                 </div>
               </div>
             </div>
-
+</div>
             {/* react comtainer  */}
-            <div>
-              <i
+            <motion.div
+          
+            >
+              <motion.i
+                animate={{
+                  rotate:360,
+                  transition:{yoyo :Infinity, duration:4}
+                }}
                 className="fa-brands fa-react "
                 style={{
                   fontSize: "100px",
                   color: "#3C99DC",
                   textAlign: "center",
                 }}
-              ></i>
+              ></motion.i>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur ullam non at excepturi, eligendi, alias sit quae
@@ -143,10 +166,15 @@ function Skills() {
                   50%
                 </div>
               </div>
-            </div>
+            </motion.div>
 
             {/* bootstrap */}
-            <div>
+            <div className="col-md-4">
+            <div 
+             style={{
+              height :'300px',
+              width:'350px',
+            }}>
               <i
                 className="fa-brands fa-bootstrap"
                 style={{
@@ -174,9 +202,14 @@ function Skills() {
                 </div>
               </div>
             </div>
+            </div>
 
             {/* git  */}
-            <div>
+            <div className="col-md-4">
+            <div  style={{
+                height :'300px',
+                width:'350px',
+              }}> 
               <i
                 className="fa-brands fa-git "
                 style={{
@@ -204,8 +237,16 @@ function Skills() {
                 </div>
               </div>
             </div>
+            </div>
+
             {/* git hub */}
-            <div>
+            <div className="col-md-4">
+            <div 
+             style={{
+              height :'300px',
+              width:'350px',
+            }}
+            > 
               <i
                 className="fa-brands fa-github "
                 style={{
@@ -233,8 +274,10 @@ function Skills() {
                 </div>
               </div>
             </div>
+</div>
+
           </div>
-          <hr/>
+          {/* <hr/> */}
         </div>
         
       </div>

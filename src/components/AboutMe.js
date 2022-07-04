@@ -12,17 +12,11 @@ function AboutMe() {
             style={{ fontSize: "20px", textAlign: "justify" }}
           >
             <p style={{ width: "45vw" , fontFamily:'cursive' }}>
-              My name is Lakshay Sharma 20 and I am a self thought front-end web 
-              developer, i have a huge interest in development and whole technology
-              spectrum, its been since 2 years that i learn front end web
-              development and the skills i aquired in last 2 years are
-              html, css, javascript,react js, bootstrap, git, and git hub,and the
-              learning process goes on in future. i am a well organised, smart
-              working man with the problem solving skill. excited to work and
-              gain new experience that help me learn and grow as a developer.
+            My name is Lakshay Sharma 20, I am a self-taught front-end web developer, i have a considerable interest in the development and whole technology spectrum, it's been since 2 years that i learned front-end web development and the skills i acquired in the last 2 years are Html, CSS, Javascript, React js, Bootstrap, Git, and Github, and the learning process goes on in future. I am a well-organized, smart working man with problem-solving skills. excited to work and gain new experience that helps me learn and grow as a developer.
+
               <br />
-              And apart from coding i have some more interest like i read books,
-              watch classical movies, shows, and anime
+              And apart from coding, I have some more interests like I read books, watching classical movies, shows, and anime
+
             </p>
             <motion.img
             initial={{

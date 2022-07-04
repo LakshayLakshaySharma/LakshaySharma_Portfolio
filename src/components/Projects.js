@@ -1,40 +1,57 @@
 import React from "react";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: '90px' }}>
       <div className=" row">
         <h1
           style={{
             fontSize: "50px",
             fontFamily: "arial",
             marginBottom: "20px",
-            color :'#904abf'
+            color: '#904abf',
+            textShadow: '1px 1px 1px black'
           }}
         >
-          WORK SAMPLE
+          Work Sample
         </h1>
+        <hr />
         <h1
           style={{
             fontSze: "30px",
             fontFamily: "arial",
             textAlign: "center",
             marginBottom: "40px",
-            color :'#904abf'
+            color: '#904abf',
+            textShadow: '1px 1px 1px black'
           }}
         >
           React Project Sample{" "}
         </h1>
         {/* react info project */}
 
-        <div className="col-md-4">
-          <div
-           
+        {/* <div className="col-md-4">
+          <motion.div
+
+            whileHover={{
+              // border:'1px solid black',
+              boxShadow: '2px 2px 2px #904abf',
+              scale: 1.1,
+              borderRadius: '10%',
+              // transition: { duration: 1 }
+            }}
+            whileTap={{
+              scale: 1.2
+            }}
             className="card "
-            style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+            style={{ width: "300px", }}
           >
-            <img
+            <motion.img
+              whileHover={{
+                borderRadius: '10%',
+                // transition: { duration: 1 }
+              }}
               src="https://i.pinimg.com/564x/61/e3/d5/61e3d5ce3923b1a74eab3434df097990.jpg"
               className="card-img-top"
               alt=""
@@ -47,38 +64,53 @@ function Projects() {
               {/* <p className="card-text">
            React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
               </p> */}
-              <div className="d-flex justify-content-around">
-                <a
+              {/* <div className="d-flex justify-content-around">
+                <motion.a
+                  whileTap={{
+                    scale: 1.2
+                  }}
                   href="https://lakshaylakshaysharma.github.io/React-Info/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Project
-                </a>
-                <a
+                </motion.a>
+                <motion.a
+                  whileTap={{
+                    scale: 1.2
+                  }}
                   href="https://github.com/LakshayLakshaySharma/React-Info"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Source Code
-                </a>
+                </motion.a>
               </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        // </div> */} 
 
         {/* bmi calculator project */}
         <div className="col-md-4">
-          <div
-           
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              boxShadow: '2px 2px 2px #904abf',
+              borderRadius: '10%',
+              // transition: { duration: 1 }
+            }}
             className="card"
-            style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+            style={{ width: "300px", }}
           >
-            <img
+            <motion.img
+              whileHover={{
+                borderRadius: '10%',
+                // transition: { duration: 1 }
+              }}
               src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
               className="card-img-top"
               alt=""
@@ -97,7 +129,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Project
                 </a>
@@ -106,23 +138,32 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Source Code
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* photo search project */}
         <div className="col-md-4">
-          <div
-           
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              boxShadow: '2px 2px 2px #904abf',
+              borderRadius: '10%',
+              // transition: { duration: 1 }
+            }}
             className="card"
-            style={{ width: "280px", boxShadow: "2px 2px 2px 2px gray" }}
+            style={{ width: "280px", }}
           >
-            <img
+            <motion.img
+              whileHover={{
+                // transition: { duration: 1 },
+                borderRadius: '10%'
+              }}
               src="https://i.pinimg.com/564x/dd/5f/68/dd5f6816e60b4c9094f03a8518c26f40.jpg"
               className="card-img-top"
               alt=""
@@ -139,7 +180,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Project
                 </a>
@@ -149,27 +190,42 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
-                  style={{backgroundColor:'#904abf'}}
+                  style={{ backgroundColor: '#904abf' }}
                 >
                   Source Code
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* news app */}
-        <div>
-          <div className="col-md-4">
-            <div
+        <div className="col-md-4">
+          <div>
+            <motion.div
+
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius: '10%',
+                // transition: { duration: 1 }
+              }}
+              // whileTap={{
+              //   scale: 1.2
+              // }}
               className="card"
               style={{
                 width: "300px",
-                marginTop: "25px",
-                boxShadow: "2px 2px 2px 2px gray",
+                // marginTop: "25px",
+                // 
               }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%',
+                // transition:{duration:1}
+              }}
                 src="https://i.pinimg.com/564x/f7/47/2e/f7472e601d4f32131d0a3fae5e5c3cc3.jpg"
                 className="card-img-top"
                 alt=""
@@ -187,7 +243,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                    style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -197,13 +253,13 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                    style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -217,7 +273,8 @@ function Projects() {
             textAlign: "center",
             marginBottom: "40px",
             marginTop: "20px",
-            color :'#904abf'
+            color: '#904abf',
+            textShadow:'1px 1px 1px black'
           }}
         >
           Javascript Work Sample
@@ -226,11 +283,25 @@ function Projects() {
           <div className="row">
             <div className="col-md-4">
               {/* tip calcualtor */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                  borderRadius:'10%',
+                  // transtion:{duration:1}
+                }}
+                whileTap={{
+                  scale: 1.2
+                }}
                 className="card"
-                style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+                style={{ width: "300px", }}
               >
-                <img
+                <motion.img
+                whileHover={{
+                  // transtion:{duration:1},
+                  borderRadius:'10%'
+                }}
                   src="https://i.pinimg.com/564x/cc/d7/be/ccd7be64792bd1238be0d5efad47631b.jpg"
                   className="card-img-top"
                   alt=""
@@ -249,7 +320,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                      style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -259,22 +330,34 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                      style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="col-md-4">
               {/* calcualtor */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                 borderRadius:'10%'
+                }}
+                whileTap={{
+                  scale: 1.2
+                }}
                 className="card"
-                style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+                style={{ width: "300px", }}
               >
-                <img
+                <motion.img
+                 whileHover={{
+                  borderRadius:'10%'
+                 }}
                   src="https://i.pinimg.com/736x/6e/75/90/6e7590fd49ac3c2198961a128d128b20.jpg"
                   className="card-img-top"
                   alt=""
@@ -292,7 +375,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -302,22 +385,34 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="col-md-4">
               {/* hex color changer */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                  borderRadius:'10%'
+                }}
+                whileTap={{
+                  scale: 1.2
+                }}
                 className="card"
-                style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+                style={{ width: "300px" }}
               >
-                <img
+                <motion.img
+                 whileHover={{
+                  borderRadius:'10%'
+                 }}
                   src="https://i.pinimg.com/564x/b1/0e/fb/b10efbb46769f49271592e3b682e4948.jpg"
                   className="card-img-top"
                   alt=""
@@ -335,7 +430,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -345,26 +440,38 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="col-md-4">
               {/* todo list */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                  borderRadius:'10%'
+                }}
+                whileTap={{
+                  scale: 1.2
+                }}
                 className="card"
                 style={{
                   width: "300px",
                   marginTop: "25px",
-                  boxShadow: "2px 2px 2px 2px gray",
+
                 }}
               >
-                <img
+                <motion.img
+                whileHover={{
+                  borderRadius:'10%'
+                }}
                   src="https://i.pinimg.com/564x/81/cb/be/81cbbee1fecc4ab241d7b3c8a3270aaa.jpg"
                   className="card-img-top"
                   alt=""
@@ -382,7 +489,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -392,26 +499,38 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="col-md-4">
               {/* css change */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                  borderRadius:'10%'
+                }}
+                // whileTap={{
+                //   scale: 1.2
+                // }}
                 className="card"
                 style={{
                   width: "300px",
                   marginTop: "25px",
-                  boxShadow: "2px 2px 2px 2px gray",
+
                 }}
               >
-                <img
+                <motion.img
+                whileHover={{
+                  borderRadius:'10%'
+                }}
                   src="https://i.pinimg.com/564x/8c/c4/a9/8cc4a9a172f7bd1cf033a3644ce3c044.jpg"
                   className="card-img-top"
                   alt=""
@@ -430,7 +549,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -440,26 +559,38 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="col-md-4">
               {/* guess random number */}
-              <div
+              <motion.div
+                whileHover={{
+                  // border:'1px solid black',
+                  boxShadow: '2px 2px 2px #904abf',
+                  scale: 1.1,
+                  borderRadius:'10%'
+                }}
+                whileTap={{
+                  scale: 1.2
+                }}
                 className="card"
                 style={{
                   width: "300px",
                   marginTop: "25px",
-                  boxShadow: "2px 2px 2px 2px gray",
+                
                 }}
               >
-                <img
+                <motion.img
+                whileHover={{
+                  borderRadius:'10%'
+                }}
                   src="https://i.pinimg.com/564x/7d/1d/b2/7d1db240475649bc635c085dc11fd6f3.jpg"
                   className="card-img-top"
                   alt=""
@@ -479,7 +610,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Project
                     </a>
@@ -489,13 +620,13 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
-                       style={{backgroundColor:'#904abf'}}
+                      style={{ backgroundColor: '#904abf' }}
                     >
                       Source Code
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -504,6 +635,7 @@ function Projects() {
       {/* html css project */}
       <div>
         <div className="row">
+       
           <h1
             style={{
               fontSze: "30px",
@@ -511,18 +643,32 @@ function Projects() {
               textAlign: "center",
               marginBottom: "40px",
               marginTop: "20px",
-              color :'#904abf'
+              color: '#904abf',
+              textShadow:'1px 1px 1px black'
             }}
           >
-            HTML & CSS Project
+            Html & Css Project
           </h1>
+         
           <div className="col-md-4">
             {/* Tribute Page */}
-            <div
+            <motion.div
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius:'10%'
+              }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
-              style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+              style={{ width: "300px", }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%'
+              }}
                 src="https://i.pinimg.com/564x/94/b4/54/94b454f14c145475b78da427122b29bb.jpg"
                 className="card-img-top"
                 alt=""
@@ -540,7 +686,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -550,22 +696,34 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="col-md-4">
             {/* Parallax effect */}
-            <div
+            <motion.div
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius:'10%'
+              }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
-              style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+              style={{ width: "300px", }}
             >
-              <img
+              <motion.img
+               whileHover={{
+                borderRadius:'10%'
+               }}
                 src="https://i.pinimg.com/564x/d8/13/db/d813dbbcfeb97cac41f5be92e7c50cfb.jpg"
                 className="card-img-top"
                 alt=""
@@ -583,7 +741,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -593,22 +751,34 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="col-md-4">
             {/* Document page */}
-            <div
+            <motion.div
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius:'10%'
+              }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
-              style={{ width: "300px", boxShadow: "2px 2px 2px 2px gray" }}
+              style={{ width: "300px", }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%'
+              }}
                 src="https://i.pinimg.com/564x/0e/3c/b2/0e3cb27c26c5e468a0114279607f7f67.jpg"
                 className="card-img-top"
                 alt=""
@@ -626,7 +796,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -636,26 +806,38 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="col-md-4">
             {/* Product Landing page */}
-            <div
+            <motion.div
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius:'10%'
+              }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
               style={{
                 width: "300px",
                 marginTop: "25px",
-                boxShadow: "2px 2px 2px 2px gray",
+
               }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%'
+              }}
                 src="https://i.pinimg.com/564x/8b/7a/3e/8b7a3e7232ab48c0dfba88d26d8bd214.jpg"
                 className="card-img-top"
                 alt=""
@@ -673,7 +855,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -683,26 +865,38 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="col-md-4">
             {/*Survay from  */}
-            <div
+            <motion.div
+              whileHover={{
+                // border:'1px solid black',
+                boxShadow: '2px 2px 2px #904abf',
+                scale: 1.1,
+                borderRadius:'10%'
+              }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
               style={{
                 width: "300px",
                 marginTop: "25px",
-                boxShadow: "2px 2px 2px 2px gray",
+
               }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%'
+              }}
                 src="https://i.pinimg.com/564x/58/20/fc/5820fcce2129a4cf61998d520a1d2fda.jpg"
                 className="card-img-top"
                 alt=""
@@ -720,7 +914,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -730,26 +924,37 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="col-md-4">
             {/* google clone */}
-            <div
+            <motion.div whileHover={{
+              // border:'1px solid black',
+              boxShadow: '2px 2px 2px #904abf',
+              scale: 1.1,
+              borderRadius:'10%'
+            }}
+              whileTap={{
+                scale: 1.2
+              }}
               className="card"
               style={{
                 width: "300px",
                 marginTop: "25px",
-                boxShadow: "2px 2px 2px 2px gray",
+
               }}
             >
-              <img
+              <motion.img
+              whileHover={{
+                borderRadius:'10%'
+              }}
                 src="https://i.pinimg.com/564x/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.jpg"
                 className="card-img-top"
                 alt=""
@@ -767,7 +972,7 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Project
                   </a>
@@ -777,13 +982,13 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
-                     style={{backgroundColor:'#904abf'}}
+                    style={{ backgroundColor: '#904abf' }}
                   >
                     Source Code
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
