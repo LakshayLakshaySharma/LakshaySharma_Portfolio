@@ -9,7 +9,9 @@ export default function ContactMe() {
         class="text-center text-lg-start bg-white text-muted"
         style={{
           marginTop: "30vh",
-          background: "linear-gradient(to bottom, #ffffff 0%, #9933ff  100%)",
+          // background: "linear-gradient(to bottom, #ffffff 0%, #904abf  100%)",/
+          background: "linear-gradient(to top, #ffffff 0%, #904abf  100%)", 
+          height:'100vh'
         }}
       >
         {/* <!-- Section: Social media --> */}
@@ -29,7 +31,7 @@ export default function ContactMe() {
               rel="noreferrer"
 
             >
-              <i class="fab fa-facebook-f" style={{color:'black',textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-facebook-f" style={{color:'black',textShadow:'3px 3px 5px white'}}></i>
             </a>
             <a
               href="https://twitter.com/Lakshay35660321?t=kScv_UWVtqgcfEDrVYkYrA&s=09"
@@ -37,7 +39,7 @@ export default function ContactMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-twitter" style={{color:'black', textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-twitter" style={{color:'black', textShadow:'3px 3px 5px white'}}></i>
             </a>
             <a
               href="https://codepen.io/your-work/?item_type=pen"
@@ -45,7 +47,7 @@ export default function ContactMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-codepen" style={{color:'black' ,textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-codepen" style={{color:'black' ,textShadow:'3px 3px 5px white'}}></i>
             </a>
             <a
               href="https://www.instagram.com/lakshays9625/"
@@ -53,7 +55,7 @@ export default function ContactMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-instagram" style={{color:'black', textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-instagram" style={{color:'black', textShadow:'3px 3px 5px white'}}></i>
             </a>
             <a
               href="https://www.linkedin.com/in/lakshay-sharma-4a8a9a230"
@@ -61,7 +63,7 @@ export default function ContactMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-linkedin" style={{color:'black', textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-linkedin" style={{color:'black', textShadow:'3px 3px 5px white'}}></i>
             </a>
             <a
               href="https://github.com/LakshayLakshaySharma"
@@ -69,7 +71,7 @@ export default function ContactMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-github" style={{color:'black', textShadow:'3px 3px 5px gray'}}></i>
+              <i class="fab fa-github" style={{color:'black', textShadow:'3px 3px 5px white'}}></i>
             </a>
           </div>
           {/* <!-- Right --> */}

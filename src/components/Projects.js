@@ -19,7 +19,7 @@ function Projects() {
         <hr />
         <h1
           style={{
-            fontSze: "30px",
+            // fontSize: "30px",
             fontFamily: "arial",
             textAlign: "center",
             marginBottom: "40px",
@@ -29,70 +29,7 @@ function Projects() {
         >
           React Project Sample{" "}
         </h1>
-        {/* react info project */}
-
-        {/* <div className="col-md-4">
-          <motion.div
-
-            whileHover={{
-              // border:'1px solid black',
-              boxShadow: '2px 2px 2px #904abf',
-              scale: 1.1,
-              borderRadius: '10%',
-              // transition: { duration: 1 }
-            }}
-            whileTap={{
-              scale: 1.2
-            }}
-            className="card "
-            style={{ width: "300px", }}
-          >
-            <motion.img
-              whileHover={{
-                borderRadius: '10%',
-                // transition: { duration: 1 }
-              }}
-              src="https://i.pinimg.com/564x/61/e3/d5/61e3d5ce3923b1a74eab3434df097990.jpg"
-              className="card-img-top"
-              alt=""
-              style={{ height: "200px", width: "300px" }}
-            />
-            <div className="card-body">
-              <h5 className="card-title text-center text-center">
-                React-Info Page
-              </h5>
-              {/* <p className="card-text">
-           React-Info Page, where you can find intersting fact about react js and access the offical React Documentation 
-              </p> */}
-              {/* <div className="d-flex justify-content-around">
-                <motion.a
-                  whileTap={{
-                    scale: 1.2
-                  }}
-                  href="https://lakshaylakshaysharma.github.io/React-Info/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn-primary"
-                  style={{ backgroundColor: '#904abf' }}
-                >
-                  Project
-                </motion.a>
-                <motion.a
-                  whileTap={{
-                    scale: 1.2
-                  }}
-                  href="https://github.com/LakshayLakshaySharma/React-Info"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn-primary"
-                  style={{ backgroundColor: '#904abf' }}
-                >
-                  Source Code
-                </motion.a>
-              </div>
-            </div>
-          </motion.div>
-        // </div> */} 
+        
 
         {/* bmi calculator project */}
         <div className="col-md-4">
@@ -104,7 +41,7 @@ function Projects() {
               // transition: { duration: 1 }
             }}
             className="card"
-            style={{ width: "300px", }}
+            style={{ width: "300px" ,  border:'1px solid #904abf'}}
           >
             <motion.img
               whileHover={{
@@ -114,10 +51,12 @@ function Projects() {
               src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "200px", width: "300px" }}
+              style={{ height: "200px", width: "300px", }}
             />
             <div className="card-body">
-              <h5 className="card-title text-center text-center">
+              <h5 className="card-title text-center text-center" 
+              
+              >
                 BMI Calculator
               </h5>
               {/* <p className="card-text">
@@ -157,7 +96,7 @@ function Projects() {
               // transition: { duration: 1 }
             }}
             className="card"
-            style={{ width: "280px", }}
+            style={{ width: "300px", }}
           >
             <motion.img
               whileHover={{
@@ -167,7 +106,7 @@ function Projects() {
               src="https://i.pinimg.com/564x/dd/5f/68/dd5f6816e60b4c9094f03a8518c26f40.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "200px", width: "280px" }}
+              style={{ height: "200px", width: "300px" }}
             />
             <div className="card-body">
               <h5 className="card-title text-center">Search Photo App</h5>
