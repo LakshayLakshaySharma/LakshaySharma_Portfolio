@@ -61,9 +61,9 @@ function Skills() {
                   </a>
                   And this is my HTML Quiz result.
                 </p>
-                <div class="progress">
+                <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped active"
+                    className="progress-bar progress-bar-striped active"
                     role="progressbar"
                     style={{ width: "85%", backgroundColor: "#e34c26" }}
                     aria-valuenow="10"
@@ -109,7 +109,7 @@ function Skills() {
                 </p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
+                    className="progress-bar progress-bar-striped"
                     role="progressbar"
                     style={{ width: "88%", backgroundColor: "#3C99DC" }}
                     aria-valuenow="10"
@@ -153,7 +153,7 @@ function Skills() {
                 </p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
+                    className="progress-bar progress-bar-striped"
                     role="progressbar"
                     style={{ width: "96%", backgroundColor: "#F0DB4F" }}
                     aria-valuenow="10"
@@ -204,7 +204,7 @@ function Skills() {
               </p>
               <div className="progress">
                 <div
-                  class="progress-bar progress-bar-striped"
+                  className="progress-bar progress-bar-striped"
                   role="progressbar"
                   style={{ width: "52%", backgroundColor: "#3c99dc" }}
                   aria-valuenow="10"
@@ -249,7 +249,7 @@ function Skills() {
                 </p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
+                    className="progress-bar progress-bar-striped"
                     role="progressbar"
                     style={{ width: "68%", backgroundColor: "#080135" }}
                     aria-valuenow="10"
@@ -299,7 +299,7 @@ function Skills() {
                 </p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
+                    className="progress-bar progress-bar-striped"
                     role="progressbar"
                     style={{ width: "84%", backgroundColor: "#3E2c00" }}
                     aria-valuenow="10"
@@ -336,7 +336,7 @@ function Skills() {
                 </p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
+                    className="progress-bar progress-bar-striped"
                     role="progressbar"
                     style={{ width: "50%", backgroundColor: "#6e5494" }}
                     aria-valuenow="10"
