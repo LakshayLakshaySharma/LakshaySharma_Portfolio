@@ -43,7 +43,7 @@ function AboutMe() {
               // }}
 
               whileHover={{
-                borderRadius: "30%",
+                // borderRadius: "30%",
                 border: "1px solid black",
                 // boxShadow: "5px 5px 5px #904abf",
                 transition: { duration: 2 },
@@ -52,7 +52,7 @@ function AboutMe() {
               style={{
                 height: "270px",
                 width: "270px",
-                borderRadius: "50%",
+                borderRadius: "30%",
                 marginLeft: "60px",
                 marginTop: "30px",
                 boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #904abf",

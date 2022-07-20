@@ -33,15 +33,16 @@ function Projects() {
 
         {/* bmi calculator project */}
         <div className="col-md-4">
-          <motion.div
+          <motion.div 
             whileHover={{
               scale: 1.1,
               boxShadow: '2px 2px 2px #904abf',
               borderRadius: '10%',
+              
               // transition: { duration: 1 }
             }}
             className="card"
-            style={{ width: "300px" ,  border:'1px solid #904abf'}}
+            style={{ width: "300px" ,  border:'1px solid #904abf', borderRadius:'10%'}}
           >
             <motion.img
               whileHover={{
@@ -51,7 +52,7 @@ function Projects() {
               src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "200px", width: "300px", }}
+              style={{ height: "200px", width: "300px", borderRadius:'10%'}}
             />
             <div className="card-body">
               <h5 className="card-title text-center text-center" 
@@ -96,7 +97,7 @@ function Projects() {
               // transition: { duration: 1 }
             }}
             className="card"
-            style={{ width: "300px", }}
+            style={{ width: "300px", borderRadius:'10%', border:'1px solid #904abf'}}
           >
             <motion.img
               whileHover={{
@@ -106,7 +107,7 @@ function Projects() {
               src="https://i.pinimg.com/564x/dd/5f/68/dd5f6816e60b4c9094f03a8518c26f40.jpg"
               className="card-img-top"
               alt=""
-              style={{ height: "200px", width: "300px" }}
+              style={{ height: "200px", width: "300px",borderRadius:'10%' }}
             />
             <div className="card-body">
               <h5 className="card-title text-center">Search Photo App</h5>
@@ -158,6 +159,8 @@ function Projects() {
                 width: "300px",
                 // marginTop: "25px",
                 // 
+                borderRadius:'10%',
+                border:'1px solid #904abf'
               }}
             >
               <motion.img
@@ -168,7 +171,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/f7/47/2e/f7472e601d4f32131d0a3fae5e5c3cc3.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "200px", width: "300px" }}
+                style={{ height: "200px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">News App</h5>
@@ -213,7 +216,8 @@ function Projects() {
             marginBottom: "40px",
             marginTop: "20px",
             color: '#904abf',
-            textShadow:'1px 1px 1px black'
+            textShadow:'1px 1px 1px black',
+            borderRadius:'10%'
           }}
         >
           Javascript Work Sample
@@ -234,17 +238,18 @@ function Projects() {
                   scale: 1.2
                 }}
                 className="card"
-                style={{ width: "300px", }}
+                style={{ width: "300px",borderRadius:'10%' , border:'1px solid #904abf'}}
               >
                 <motion.img
                 whileHover={{
                   // transtion:{duration:1},
-                  borderRadius:'10%'
+                  borderRadius:'10%',
+                  
                 }}
                   src="https://i.pinimg.com/564x/cc/d7/be/ccd7be64792bd1238be0d5efad47631b.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px",borderRadius:'10%' }}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Tip Calculator</h5>
@@ -285,13 +290,14 @@ function Projects() {
                   // border:'1px solid black',
                   boxShadow: '2px 2px 2px #904abf',
                   scale: 1.1,
-                 borderRadius:'10%'
+                 borderRadius:'10%',
+                 
                 }}
                 whileTap={{
                   scale: 1.2
                 }}
                 className="card"
-                style={{ width: "300px", }}
+                style={{ width: "300px",borderRadius:'10%' , border:'1px solid #904abf'}}
               >
                 <motion.img
                  whileHover={{
@@ -300,7 +306,7 @@ function Projects() {
                   src="https://i.pinimg.com/736x/6e/75/90/6e7590fd49ac3c2198961a128d128b20.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px",borderRadius:'10%' }}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center"> Calculator</h5>
@@ -346,7 +352,7 @@ function Projects() {
                   scale: 1.2
                 }}
                 className="card"
-                style={{ width: "300px" }}
+                style={{ width: "300px",borderRadius:'10%', border:'1px solid #904abf' }}
               >
                 <motion.img
                  whileHover={{
@@ -355,7 +361,7 @@ function Projects() {
                   src="https://i.pinimg.com/564x/b1/0e/fb/b10efbb46769f49271592e3b682e4948.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px" ,borderRadius:'10%'}}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Hex Color Changer</h5>
@@ -404,7 +410,7 @@ function Projects() {
                 style={{
                   width: "300px",
                   marginTop: "25px",
-
+                  borderRadius:'10%', border:'1px solid #904abf'
                 }}
               >
                 <motion.img
@@ -414,7 +420,7 @@ function Projects() {
                   src="https://i.pinimg.com/564x/81/cb/be/81cbbee1fecc4ab241d7b3c8a3270aaa.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px",borderRadius:'10%' }}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">To-Do List</h5>
@@ -463,7 +469,7 @@ function Projects() {
                 style={{
                   width: "300px",
                   marginTop: "25px",
-
+                  borderRadius:'10%', border:'1px solid #904abf'
                 }}
               >
                 <motion.img
@@ -473,7 +479,7 @@ function Projects() {
                   src="https://i.pinimg.com/564x/8c/c4/a9/8cc4a9a172f7bd1cf033a3644ce3c044.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px" ,borderRadius:'10%'}}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Change CSS</h5>
@@ -523,7 +529,7 @@ function Projects() {
                 style={{
                   width: "300px",
                   marginTop: "25px",
-                
+                  borderRadius:'10%', border:'1px solid #904abf'
                 }}
               >
                 <motion.img
@@ -533,7 +539,7 @@ function Projects() {
                   src="https://i.pinimg.com/564x/7d/1d/b2/7d1db240475649bc635c085dc11fd6f3.jpg"
                   className="card-img-top"
                   alt=""
-                  style={{ height: "220px", width: "300px" }}
+                  style={{ height: "220px", width: "300px",borderRadius:'10%' }}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">
@@ -602,7 +608,7 @@ function Projects() {
                 scale: 1.2
               }}
               className="card"
-              style={{ width: "300px", }}
+              style={{ width: "300px",borderRadius:'10%' , border:'1px solid #904abf'}}
             >
               <motion.img
               whileHover={{
@@ -611,7 +617,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/94/b4/54/94b454f14c145475b78da427122b29bb.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Tribute Page</h5>
@@ -657,7 +663,7 @@ function Projects() {
                 scale: 1.2
               }}
               className="card"
-              style={{ width: "300px", }}
+              style={{ width: "300px",borderRadius:'10%', border:'1px solid #904abf' }}
             >
               <motion.img
                whileHover={{
@@ -666,7 +672,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/d8/13/db/d813dbbcfeb97cac41f5be92e7c50cfb.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Parallax Effect</h5>
@@ -712,7 +718,7 @@ function Projects() {
                 scale: 1.2
               }}
               className="card"
-              style={{ width: "300px", }}
+              style={{ width: "300px",borderRadius:'10%', border:'1px solid #904abf' }}
             >
               <motion.img
               whileHover={{
@@ -721,7 +727,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/0e/3c/b2/0e3cb27c26c5e468a0114279607f7f67.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Document Page</h5>
@@ -770,7 +776,7 @@ function Projects() {
               style={{
                 width: "300px",
                 marginTop: "25px",
-
+                borderRadius:'10%', border:'1px solid #904abf'
               }}
             >
               <motion.img
@@ -780,7 +786,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/8b/7a/3e/8b7a3e7232ab48c0dfba88d26d8bd214.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Product Landing Page</h5>
@@ -829,7 +835,7 @@ function Projects() {
               style={{
                 width: "300px",
                 marginTop: "25px",
-
+                borderRadius:'10%', border:'1px solid #904abf'
               }}
             >
               <motion.img
@@ -839,7 +845,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/58/20/fc/5820fcce2129a4cf61998d520a1d2fda.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Survay From</h5>
@@ -887,7 +893,7 @@ function Projects() {
               style={{
                 width: "300px",
                 marginTop: "25px",
-
+                borderRadius:'10%', border:'1px solid #904abf'
               }}
             >
               <motion.img
@@ -897,7 +903,7 @@ function Projects() {
                 src="https://i.pinimg.com/564x/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.jpg"
                 className="card-img-top"
                 alt=""
-                style={{ height: "220px", width: "300px" }}
+                style={{ height: "220px", width: "300px",borderRadius:'10%' }}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Google Clone</h5>

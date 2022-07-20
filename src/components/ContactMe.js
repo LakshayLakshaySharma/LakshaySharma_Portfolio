@@ -90,9 +90,7 @@ export default function ContactMe() {
                   <i class="fas fa-gem me-3" style={{color:'black'}}></i>LakshaySharma
                 </h6>
                 <p style={{color:'black'}}>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+        
                 </p>
               </div>
               {/* <!-- Grid column --> */}
@@ -106,7 +104,7 @@ export default function ContactMe() {
                     Javascript
                   {/* </a> */}
                 </p>
-                <p style={{color:'black'}}>
+                <p style={{color:'black',}}>
                   {/* <a href="#!" class="text-reset" > */}
                     React
                   {/* </a> */}
@@ -134,9 +132,11 @@ export default function ContactMe() {
                 <p>
                   <i class="fas fa-home me-3"></i> New Delhi, India
                 </p>
-                <p>
+                <p >
+                  <a href ="mailto:lakshay0sharma@gmail.com" style={{color:'black'}}>
                   <i class="fas fa-envelope me-3"></i>
                   lakshay0sharma@gmail.com
+                </a>
                 </p>
                 <p>
                   <i class="fas fa-phone me-3"></i> +91 7428182174
