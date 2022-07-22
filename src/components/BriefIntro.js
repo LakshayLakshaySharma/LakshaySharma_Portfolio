@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 function BriefIntro() {
   let styling = {
@@ -7,13 +7,14 @@ function BriefIntro() {
     textAlign: "center",
     margin: "auto",
     background: "linear-gradient(to top, #ffffff 0%, #904abf  100%)",
+    // background: "linear-gradient(#e66465, #9198e5)",
 fontFamily:'cursive'
   };
 
   return (
     <div style={styling}>
 
-      <motion.div
+      <div
         style={{
           height: "100vh",
          
@@ -36,8 +37,9 @@ fontFamily:'cursive'
         <h1 style={{ fontSize: "70px"  }}>HI</h1>
         <h2 style={{ fontSize: "40px" }}>I AM LAKSHAY SHARMA</h2>
         <h4 style={{ fontSize: "30px" }}>FRONT END WEB DEVELOPER</h4>
-      </motion.div>
-    </div>
+      </div>
+      </div>
+
   );
 }
 

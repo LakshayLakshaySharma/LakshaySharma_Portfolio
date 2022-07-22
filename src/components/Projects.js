@@ -49,7 +49,9 @@ function Projects() {
                 borderRadius: '10%',
                 // transition: { duration: 1 }
               }}
-              src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
+              // src="https://i.pinimg.com/236x/b2/14/ad/b214ad226f2608d3665670fb890f4889.jpg"
+              // src="./image/bmi.png"
+              src="https://i.pinimg.com/564x/8d/2a/e4/8d2ae4ccb4f0adc2af52f851ba4a3aa0.jpg"
               className="card-img-top"
               alt=""
               style={{ height: "200px", width: "300px", borderRadius:'10%'}}

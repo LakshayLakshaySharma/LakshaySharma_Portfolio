@@ -48,10 +48,12 @@ function AboutMe() {
                 // boxShadow: "5px 5px 5px #904abf",
                 transition: { duration: 2 },
               }}
-              src="./image/lak.png"
+              // src="./image/lak.png"
+              src="https://i.pinimg.com/750x/c4/71/0d/c4710d2d7b42ea503a5b2d07f7e3e31c.jpg"
+              // src="https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               style={{
-                height: "270px",
-                width: "270px",
+                height: "350px",
+                width: "300px",
                 borderRadius: "30%",
                 marginLeft: "60px",
                 marginTop: "30px",
